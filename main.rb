@@ -19,7 +19,7 @@ while (true)
   if products.size > 0
     puts "Tem! Enviando tweet!"
 
-    `t update "@BrunoAssis @KarenKoritiak o devorador de mundos acordou."`
+    `t update "@BrunoAssis @KarenKoritiak o devorador de mundos acordou as #{Time.now.to_s}"`
   else
     puts "Não tem :("
   end
