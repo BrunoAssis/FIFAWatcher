@@ -28,5 +28,6 @@ begin
     sleep 20.0
   end
 rescue
+  puts $!, $@
   `t update "@BrunoAssis @KarenKoritiak às #{Time.now.to_s}, um super vilão apareceu."`
 end
