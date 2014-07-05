@@ -30,7 +30,8 @@ while (true)
     end
   rescue
     puts $!, $@
-    `t update "@BrunoAssis @KarenKoritiak às #{Time.now.to_s}, um super vilão apareceu."`
   end
   sleep 60.0
 end
+
+`t update "@BrunoAssis @KarenKoritiak às #{Time.now.to_s}, um super vilão apareceu."`
